@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  "<img src='sandydan.png'>"
+  erb :index
 end
